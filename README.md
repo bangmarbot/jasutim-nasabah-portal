@@ -33,4 +33,12 @@ Lalu buka:
 
 ## Notes
 - Repo ini terpisah dari `jasutim-bot`
-- Direkomendasikan deploy ke VPS/subdomain seperti `nasabah-jasutim.aidia.uk`
+- Bisa deploy ke Vercel atau VPS/subdomain seperti `nasabah-jasutim.aidia.uk`
+
+## Deploy ke Vercel
+Set environment variables berikut di project Vercel:
+- `SECRET_KEY`
+- `JASUTIM_SPREADSHEET_ID`
+- `GOOGLE_SERVICE_ACCOUNT_JSON`
+
+`GOOGLE_SERVICE_ACCOUNT_JSON` berisi full JSON service account Google dalam satu string JSON.
